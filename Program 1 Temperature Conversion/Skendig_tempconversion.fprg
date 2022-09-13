@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sarak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-06 02:12:21 PM"/>
+        <attribute name="created" value="c2FyYWs7U0FSQVMtRzE0OzIwMjItMDktMDY7MDE6NTY6NDIgUE07MjQwOA=="/>
+        <attribute name="edited" value="c2FyYWs7U0FSQVMtRzE0OzIwMjItMDktMDY7MDI6MTI6MjEgUE07MTsyNTA2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="farenheit" type="Integer" array="False" size=""/>
+            <declare name="celsius" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the temperature in Farenheit: &quot;" newline="True"/>
+            <input variable="farenheit"/>
+            <assign variable="celsius" expression="5.0/9.0 * (farenheit-32)"/>
+            <output expression="&quot;The temperature in Farenheit is &quot;" newline="False"/>
+            <output expression="farenheit" newline="False"/>
+            <output expression="&quot; degree farenheit.&quot;" newline="True"/>
+            <output expression="&quot;The temperature in Celsius is &quot;" newline="False"/>
+            <output expression="celsius" newline="False"/>
+            <output expression="&quot; degrees Celsius.&quot;" newline="True"/>
+            <output expression="endl" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
