@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sarak"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-20 12:07:39 PM"/>
+        <attribute name="created" value="c2FyYWs7U0FSQVMtRzE0OzIwMjItMDktMjA7MTI6MDM6MDMgUE07MjM5NQ=="/>
+        <attribute name="edited" value="c2FyYWs7U0FSQVMtRzE0OzIwMjItMDktMjA7MTI6MDc6MzkgUE07MTsyNTE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <declare name="hyp" type="Integer" array="False" size=""/>
+            <output expression="setprecision(1) + fixed + showpoint" newline="True"/>
+            <output expression="&quot;Please enter first value:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Please enter second value: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="hyp" expression="sqrt(pow(a,2) + pow(b,2))"/>
+            <output expression="&quot;The sides of the right triangle are &quot; + a + &quot; and &quot; + b + endl" newline="True"/>
+            <output expression="&quot;The hypotenuse is &quot;  + hyp + endl" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
